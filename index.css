@@ -152,7 +152,7 @@ a.btn {
 }
 
 .course-title {
-  font-size: 2rem;
+  font-size: 28px;
 }
 
 .course-info-container {
@@ -167,16 +167,19 @@ a.btn {
 
 .progress-bar {
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-areas: "bar";
   height: 20px;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  width: 250px;
 }
 
 .progress-bar .whole {
   grid-area: bar;
-  border: 3px solid;
+  border: 2px solid;
   width: 200px;
 }
 
@@ -186,14 +189,14 @@ a.btn {
   width: 50px;
   height: 20px;
   position: relative;
-  top: 3px;
-  left: 3px;
-  border-radius: 4px;
+  left: 2px;
+  border-radius: 6px;
   transition: width 0.5s linear;
 }
 
 .progress-info {
-  margin: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .course-header-container {
@@ -206,17 +209,49 @@ a.btn {
 .course-header {
   display: flex;
   align-items: center;
+  font-size: 24px;
+}
+
+.course-content {
+  border: .5px solid rgba(0, 0, 0, 0.329);
 }
 
 .module-title-container {
   margin: 20px;
 }
 
-.module-title {
+.module-title-container {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
-.lesson {
+.module-title-container i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fa-lightbulb {
+  font-size: 24px;
+}
+
+.module-title {
+  font-weight: bold;
+}
+
+.lesson-container {
   margin: 20px;
+  margin-left: 45px;
+  font-size: 16px;
+  display: flex;
+}
+
+.lesson-text {
+  margin: 0px 10px;
+}
+
+.fa-check-circle {
+  color: #96d738;
 }
 
 @media (min-width: 768px) {
