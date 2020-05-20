@@ -57,6 +57,13 @@ a:visited {
   width: 100%;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo-container {
   margin-left: 25px;
   margin-top: 25px;
@@ -119,10 +126,6 @@ a.btn {
   white-space: nowrap;
 }
 
-label {
-  color: inherit;
-}
-
 .fa-chevron-right {
   margin-left: 20px;
   color: white;
@@ -160,4 +163,22 @@ label {
 
 .lesson {
   margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
