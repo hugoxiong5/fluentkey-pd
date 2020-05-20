@@ -45,8 +45,16 @@ a:visited {
   color: rgba(0, 0, 0, 0.329);
 }
 
-.color-secondary {
+.color-primary {
   color: rgb(0, 211, 250);
+}
+
+.color-secondary {
+  color: #ff9800;
+}
+
+.color-tertiary {
+  color: #96d738;
 }
 
 .styled-seperator {
@@ -141,6 +149,51 @@ a.btn {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.course-title {
+  font-size: 2rem;
+}
+
+.course-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  min-width: 200px;
+  margin: 0px auto;
+}
+
+.progress-bar {
+  display: grid;
+  grid-template-areas: "bar";
+  height: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.progress-bar .whole {
+  grid-area: bar;
+  border: 3px solid;
+  width: 200px;
+}
+
+.progress-bar .current {
+  grid-area: bar;
+  background-color: #96d738;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  border-radius: 4px;
+  transition: width 0.5s linear;
+}
+
+.progress-info {
+  margin: 25px;
 }
 
 .course-header-container {
