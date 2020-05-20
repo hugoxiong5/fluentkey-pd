@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.5px;
+}
+
+:root {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.header-title {
+  font-size: 30px;
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.btn {
+  color: white;
+}
+
+.btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 16px;
+  margin: 10px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.course-header {
+  display: flex;
+  align-items: center;
+}
+
+.module-title-container {
+  margin: 20px;
+}
+
+.module-title {
+
+}
+
+.lesson {
+  margin: 20px;
+}
