@@ -202,11 +202,20 @@ a.btn {
   margin-bottom: 25px;
 }
 
+.course-content {
+  border: 0.5px solid rgba(0, 0, 0, 0.329);
+  width: 80%;
+  padding: 30px 15px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
 .course-header-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .course-header {
@@ -215,16 +224,13 @@ a.btn {
   font-size: 24px;
 }
 
-.course-content {
-  border: 0.5px solid rgba(0, 0, 0, 0.329);
-  width: 80%;
-  margin: auto;
-  margin-bottom: 50px;
+.module {
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .module-title-container {
-  margin: 20px;
-  margin-top: 30px;
+  margin: 0px 20px;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -259,7 +265,7 @@ a.btn {
   color: #96d738;
 }
 
-.lesson-text {
+.lesson-title {
   margin: 0px 10px;
 }
 
