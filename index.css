@@ -125,6 +125,7 @@ a.btn {
   padding-left: 40px;
   padding-right: 40px;
   min-width: 140px;
+  width: 150px;
   line-height: 60px;
   min-height: 40px;
   position: relative;
@@ -218,13 +219,12 @@ a.btn {
   border: 0.5px solid rgba(0, 0, 0, 0.329);
   width: 80%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .module-title-container {
   margin: 20px;
-}
-
-.module-title-container {
+  margin-top: 30px;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -263,27 +263,98 @@ a.btn {
   margin: 0px 10px;
 }
 
-.resources {
-  font-weight: bold;
+.btn-secondary {
+  display: flex;
+  height: 30px;
+  min-width: 190px;
+  width: 190px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  color: white;
+  background-color: #01d3fa;
+  border-radius: 42px;
+  line-height: 30px;
+  min-height: 30px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.certificate-info {
+.resources {
+  transition: none;
+}
+
+.resources:hover {
+  background-color: #ff9800;
+}
+
+.resources i {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: inherit;
+}
+
+.resources div {
+  color: inherit;
+}
+
+.complete-info {
+  margin: 50px 0px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.certificate-caption {
+.complete-caption {
   flex-basis: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px;
+}
+
+.certificate-container {
+  width: 300px;
+  margin: 20px;
 }
 
 .certificate-container img {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
-ul {
-  margin-left: 10px;
+.rewards-container {
+  width: 300px;
+  margin: 20px;
+  padding-left: 40px;
+}
+
+.rewards-header {
+  font-size: 24px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+li {
+  margin-left: 20px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.btn-wrapper {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-wrapper .btn {
+
 }
 
 footer {
